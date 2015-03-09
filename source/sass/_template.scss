@@ -16,30 +16,9 @@ body {
 	line-height: 1.6em;
 	color: $text-color-dark;
 	margin: 0;
-	background: #202020;
 }
 
 .wrapper {
 	max-width: 1140px;
-	margin: 0 auto;
-}
-
-.icon {
-	font-family:fontawesome;
-	font-weight:bold;
-	font-size:30px;
-}
-
-.goal,.completed {
-	font-family: 'Roboto','Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
-	fill:white;
-	text-anchor:middle;
-}
-
-.goal {
-	font-size: 30px;
-}
-
-.completed{
-	font-size: 95px;
+	margin: 50px auto;
 }
