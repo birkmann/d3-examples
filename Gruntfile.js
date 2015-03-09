@@ -45,8 +45,8 @@ module.exports = function(grunt) {
 						src: ['**/*']
 					},
 					{
-						cwd: 'source/csv/',
-						dest: 'build/csv/',
+						cwd: 'source/data/',
+						dest: 'build/data/',
 						expand: true,
 						src: ['**/*']
 					}
@@ -61,8 +61,8 @@ module.exports = function(grunt) {
 						src: ['**/*']
 					},
 					{
-						cwd: 'source/csv/',
-						dest: 'build/csv/',
+						cwd: 'source/data/',
+						dest: 'build/data/',
 						expand: true,
 						src: ['**/*']
 					}
