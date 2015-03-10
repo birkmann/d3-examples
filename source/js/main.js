@@ -9,15 +9,15 @@ $(document).ready(function(){
 		'use strict';
 
 		var dataset = [
-			{ label: '1', count: 10 }, 
-			{ label: '2', count: 20 },
-			{ label: '3', count: 30 },
-			{ label: '4', count: 40 },
-			{ label: '5', count: 50 },
-			{ label: '6', count: 60 },
-			{ label: '7', count: 70 },
-			{ label: '8', count: 80 },
-			{ label: '9', count: 90 },
+			{ label: '1', count: 20 }, 
+			{ label: '2', count: 15 },
+			{ label: '3', count: 8 },
+			{ label: '4', count: 33 },
+			{ label: '5', count: 45 },
+			{ label: '6', count: 12 },
+			{ label: '7', count: 45 },
+			{ label: '8', count: 40 },
+			{ label: '9', count: 34 },
 		];
 
 		var width = 360;
@@ -25,7 +25,7 @@ $(document).ready(function(){
 		var radius = Math.min(width, height) / 2;
 
 		var color = d3.scale.category20b();
-		var color = d3.scale.ordinal().range(['#113F8C', '#01A4A4', '#00A1CB', '#61AE24', '#D0D102', '#32742C', '#D70060', '#E54028', '#F18D05']);
+		var color = d3.scale.ordinal().range(['#eee', '#ccc', '#aaa', '#999', '#666', '#444', '#222', '#111', '#000']);
 
 		var svg = d3.select('#chart')
 			.append('svg')
